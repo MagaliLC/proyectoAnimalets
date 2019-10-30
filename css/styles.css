@@ -1,0 +1,145 @@
+                .logo {
+                    width: 50px;
+                }
+                
+                .main-color {
+                    color: #489e36;
+                }
+                
+                .darker-main-color {
+                    color: #204a18;
+                }
+                
+                .navbar .dropdown-menu {
+                    background-color: #343a40;
+                }
+                /* and this styles the dropdwon trigger link, when open */
+                
+                .navbar .dropdown.show a {
+                    background-color: #343a40;
+                }
+                
+                .navbar {
+                    font-size: 20px !important;
+                }
+                
+                body {
+                    padding-top: 20px;
+                }
+                
+                .title {
+                    width: 100%;
+                    margin: 28% 0%;
+                    position: absolute;
+                    z-index: 1;
+                    background-color: rgb(232, 232, 232, 0.3);
+                    font-family: 'Lato', sans-serif;
+                }
+                
+                .title h2 {
+                    font-size: 80px;
+                }
+                
+                #shelter-text {
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 35px;
+                }
+                
+                .img-hover-zoom {
+                    overflow: hidden;
+                }
+                
+                .img-hover-zoom img {
+                    transition: transform .5s ease;
+                    border-radius: 25px;
+                }
+                
+                .img-hover-zoom:hover img {
+                    transform: scale(1.3);
+                }
+                
+                .img-overlay {
+                    position: absolute;
+                    top: 82%;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    text-align: center;
+                }
+                
+                #columna:hover #boton {
+                    background-color: #204a18;
+                    border-color: #204a18;
+                }
+                
+                @media (min-width: 2560px) {
+                    .navbar {
+                        font-size: 25px !important;
+                    }
+                    footer {
+                        font-size: 20px;
+                    }
+                    footer h5 {
+                        font-size: 25px;
+                    }
+                }
+                
+                @media (max-width: 1440px) {
+                    .img-overlay {
+                        top: 76%;
+                    }
+                    #shelter-text {
+                        font-size: 25px;
+                    }
+                    .navbar {
+                        font-size: 18px !important;
+                    }
+                }
+                
+                @media (max-width: 1024px) {
+                    .img-overlay {
+                        top: 76%;
+                    }
+                    #shelter-text {
+                        font-size: 25px;
+                    }
+                }
+                
+                @media (max-width: 768px) {
+                    .img-overlay {
+                        top: 88%;
+                    }
+                    .navbar {
+                        font-size: 16px !important;
+                    }
+                }
+                
+                @media (max-width: 600px) {
+                    .img-overlay {
+                        top: 76%;
+                    }
+                }
+                
+                @media (max-width: 425px) {
+                    .img-overlay {
+                        top: 80%;
+                    }
+                    #shelter-text {
+                        font-size: 20px;
+                    }
+                    .title h2 {
+                        font-size: 40px;
+                    }
+                }
+                
+                @media (max-width: 320px) {
+                    .img-overlay {
+                        top: 74%;
+                    }
+                }
+                
+                @media (max-width: 375px) {
+                    .title h2 {
+                        font-size: 30px;
+                    }
+                }
