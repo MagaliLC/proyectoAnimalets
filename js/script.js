@@ -1,5 +1,22 @@
 function validateForm() {
-    if (validateReason() && nameCheck() && emailCheck() && phoneCheck() && validateMessage()) {
+    let counter = 0;
+    if (!validateReason()) {
+        counter++;
+    }
+
+    if (!nameCheck()) {
+        counter++;
+    }
+    if (!emailCheck()) {
+        counter++;
+    }
+    if (!phoneCheck()) {
+        counter++;
+    }
+    if (!validateMessage()) {
+        counter++;
+    }
+    if (counter == 0) {
         openModal();
         return true;
     } else {
