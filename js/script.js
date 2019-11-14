@@ -11,14 +11,6 @@ function openModal() {
     $('#myModal').modal('toggle');
 }
 
-function clearFields() {
-    document.getElementById("reason").value = "";
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("phone").value = "";
-    document.getElementById("message").value = "";
-}
-
 function validateReason() {
     let reason = document.getElementById("reason");
     if (!reason.value == "") {
